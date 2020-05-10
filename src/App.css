@@ -3,23 +3,56 @@ body{
   font-family: 'Josefin Sans', sans-serif;
   align-items: center;
   text-align: center;
+  background-color: #de6fa1
 }
-h1{
-  text-align: center;
-  font-size: 4em;
+h4 {
+  font-size: 25px;
+  font-family: 'Patrick Hand', cursive;
+  color: black;
+
+
+}
+
+p {
+  font-size: 23px;
+  font-family: 'Patua One', cursive;
+  color: black;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 0;
+  margin-bottom: 2rem;
+  line-height: 1;
+  background: linear-gradient(to top, #870074, #915C83);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 2rem;
+  user-select: none;
 }
 button{
   margin: 1em;
-  border-radius: .25em;
+  border-radius: .75em;
   font-size: 75%;
   padding: 1em;
+
+
 }
 footer{
   padding: 2em;
-}
+  font-family:'Patrick Hand', cursive;
+  font-weight: 1;
 
-#butcherPig{
-  width: 12em;
+
+}
+#button {
+  background-color: #FF00FF;
+  border: 2px solid black;
+  font-family:'Patrick Hand', cursive;
+
+}
+#teacherPig{
+  width: 18em;
+  padding: 2em;
   }
 #pigImage{
   text-align: center;
@@ -29,10 +62,11 @@ footer{
   height: 5em;
   width: 20em;
   text-align: center;
+  font-family: 'Patua One', cursive;
 }
 
 .box{
-  background-color: #606060;
+  background-color: #D0D6E4;
   color: #fff;
   border-radius: .2em;
   padding: 1em;
